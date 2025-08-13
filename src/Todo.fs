@@ -19,7 +19,7 @@ type CreateTodo = {
 
 type UpdateTodo = {
     Title: string
-    (* For somre reason it doesn't deserialize well if it's typed as DateTime option *)
+    (* For some reason it doesn't deserialize well if it's typed as DateTime option *)
     CompletedAt: Nullable<DateTime>
 }
 
